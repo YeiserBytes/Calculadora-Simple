@@ -10,7 +10,7 @@ class Display {
             sumar: '+',
             dividir: '%',
             multiplicar: 'x',
-            restar: '-', 
+            restar: '-',
         }
     }
 
@@ -70,7 +70,7 @@ class Calculadora {
     multiplicar(num1, num2) {
         return num1 * num2;
     }
-} 
+}
 
 const displayValorAnterior = document.getElementById('valor-anterior');
 const displayValorActual = document.getElementById('valor-actual');
